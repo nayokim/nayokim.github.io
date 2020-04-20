@@ -14,8 +14,15 @@ header{
     background-color: transparent!important;
 }
 
+a{
+    color: white;
+}
+
 .jumbotron{
     height: 300px;
+
+    /*figure this out*/
+    padding-top:200px;
     /*border-bottom: 4px solid;*/
     /*border-image: linear-gradient(to right, rgb(0, 210, 255), rgb(58, 123, 213));*/
     /*border-image-slice: 1;*/
