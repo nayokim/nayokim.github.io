@@ -13,6 +13,8 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 .bg-light {
     background-color: transparent!important;
 }
@@ -21,8 +23,9 @@ header{
     border-bottom: 2px solid white;
     padding: 1px;
 }
-
-
+.hide{
+    display:none;
+}
 
 .jumbotron{
     height: 300px;
@@ -36,10 +39,70 @@ header{
     color: white;
 }
 
-.hide{
-    display:none;
+main{
+    font-family: 'Lato', sans-serif;
 }
 
+
+/*card flipper*/
+/* flip the pane when clicked */
+.flip-container .flipper.flip {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 420px;
+    height: 300px;
+}
+
+/* flip speed */
+.flipper {
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+    background-color: #fff;
+}
+
+
+.artist-1{
+    background: url("weatherapp.gif") center center no-repeat;
+    background-size: 100% 100%;
+}
+
+/*end of card flipper*/
+
+.circle {
+    background:url("IMG_0458.png") center;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+.about-me {
+    font-size: 0.5em;
+}
 .icon-link{
     color: #1969B2;
 }
+
+
