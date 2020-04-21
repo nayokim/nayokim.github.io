@@ -3,6 +3,8 @@
 /*}*/
 
 
+/*#191919;*/
+
 header{
     width:100%;
     height: 100vh;
@@ -15,9 +17,12 @@ header{
     background-color: transparent!important;
 }
 
-a{
-    color: white;
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    padding: 1px;
 }
+
+
 
 .jumbotron{
     height: 300px;
@@ -33,4 +38,8 @@ a{
 
 .hide{
     display:none;
+}
+
+.icon-link{
+    color: #1969B2;
 }
