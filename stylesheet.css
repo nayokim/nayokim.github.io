@@ -51,7 +51,7 @@ main{
 }
 
 .flip-container, .front, .back {
-    width: 420px;
+    width: 500px;
     height: 300px;
 }
 
@@ -88,6 +88,11 @@ main{
     background-size: 100% 100%;
 }
 
+.artist-2{
+    background: url("coffee-project.gif") center center no-repeat;
+    background-size: 100% 100%;
+}
+
 /*end of card flipper*/
 
 .circle {
@@ -99,7 +104,7 @@ main{
 }
 
 .about-me {
-    font-size: 0.5em;
+    font-size: 1em;
 }
 .icon-link{
     color: #1969B2;
