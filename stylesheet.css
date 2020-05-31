@@ -100,9 +100,8 @@ main{
 
 /*end of card flipper*/
 
-.contact-me{
-    background: url(pexels-photo-2096622.jpeg);
-    background-size: 100% 100%;
+.contact-me-body{
+    background: url(estudio-bloom-Qirg97-5pp0-unsplash.jpg);
     width: 100vw;
     height: 100vh;
     color: white;
