@@ -102,16 +102,14 @@ main{
 
 .contact-me-body{
     background: url(heather-barnes-1pJLkDYasfY-unsplash.jpg);
-
     width: 100vw;
     height: 100vh;
-    color: white;
+    color: black;
 }
-
 
 .icons{
     font-size: 1em;
-    color:white;
+    color:black;
 
 }
 
