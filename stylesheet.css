@@ -101,23 +101,18 @@ main{
 /*end of card flipper*/
 
 .contact-me{
-    background: url("https___www.lifeofpix.com_wp-content_uploads_2018_06_IMG_5722.jpg");
+    background: url(pexels-photo-2096622.jpeg);
     background-size: 100% 100%;
     width: 100vw;
     height: 100vh;
     color: white;
 }
 
-.contact-info{
-   color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-}
 
-.contact{
+.icons{
     font-size: 1em;
+    color:white;
+
 }
 
 
