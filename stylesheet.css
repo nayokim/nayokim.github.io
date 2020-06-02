@@ -14,7 +14,6 @@ header{
 }
 
 
-
 .bg-light {
     background-color: transparent!important;
 }
@@ -94,16 +93,15 @@ main{
 }
 
 .project-2{
-    background: url("coffee-project.gif") center center no-repeat;
+    background: url("coffee-project.gif") center center ;
     background-size: 100% 100%;
 }
 
 /*end of card flipper*/
 
 .contact-me-body{
-    background: url(heather-barnes-1pJLkDYasfY-unsplash.jpg);
-    width: 100vw;
-    height: 100vh;
+    background: url("photos/the-creative-exchange-d2zvqp3fpro-unsplash.jpg") fixed center center;
+    background-size: cover;
     color: black;
 }
 
