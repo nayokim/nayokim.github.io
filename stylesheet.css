@@ -8,7 +8,7 @@
 header{
     width:100%;
     height: 100vh;
-    background: url("elephant.jpg");
+    background: url("photos/elephant.jpg");
     background-size: 100% 100%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -88,12 +88,12 @@ main{
 
 
 .project-1{
-    background: url("weatherapp.gif") center center no-repeat;
+    background: url("photos/weatherapp.gif") center center no-repeat;
     background-size: 100% 100%;
 }
 
 .project-2{
-    background: url("coffee-project.gif") center center ;
+    background: url("photos/coffeeproject.gif") center center ;
     background-size: 100% 100%;
 }
 
@@ -128,7 +128,7 @@ main{
 
 
 .circle {
-    background:url("IMG_0458.png") center;
+    background:url("photos/IMG_0458.png") center;
     background-size: 100% 100%;
     width: 150px;
     height: 150px;
