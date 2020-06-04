@@ -55,7 +55,7 @@
 <main>
     <div class="container homepage-about-me mt-5 justify-content-center">
         <div class="about-me align-items-center justify-contents-center" id="#1 blurb">
-            <h1 class="about-me-text text-center "> Hi!<br></h1>
+            <h3 class="about-me-text text-center "> Hi!<br></h3>
             <div class="circle ml-3 pl-1 mx-auto d-block "></div>
             <p>
                 If it wasn't obvious yet, I am Nayoung. New York native* (with a few years in Philadelphia
@@ -65,12 +65,20 @@
         </div>
     </div>
 
-    <div class="container skills-about">
+    <div class="container skills-about homepage-about-me">
         <div class="row">
-            <div class="col-6 h-100">
-                <h1 class="align-items-center h-100">What have I learned?</h1>
+            <div class="col-7"></div>
+            <div class="col-5">
+                <h1 class="align-items-center">
+                    What have I learned?
+                </h1>
             </div>
-            <div class="col-6">
+        </div>
+
+        <div class="row">
+            <div class="col-7">
+            </div>
+            <div class="col-5">
                 <h6>
                     Front End Development: <span> HTML, CSS, JavaScript, Bootstrap, jQuery </span>
                 </h6>
@@ -89,25 +97,14 @@
 
 
 
-    <!--bootstrap links-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-    <!-- end bootstrap links-->
 
-    <script src="js.js"></script>
 
     <hr>
     <footer>
-        *Rochester, NY. Yes, there is more to New York than NYC. Though admittedly, it was difficult to understand that
-        through my high school years.
-
+        <p class="asterisk text-center">
+            *Rochester, NY. Yes, there is more to New York than NYC. Though admittedly, it was difficult to understand that
+            through my high school years.
+        </p>
         <div class="icons text-center">
             <!--            if email is clicked, a window will popup with email address-->
             <a class="icon-link" href="#"><i class="fas  fa-envelope fa-2x"></i></a>
@@ -118,5 +115,18 @@
     </footer>
 </main>
 
+<!--bootstrap links-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<!-- end bootstrap links-->
+
+<script src="js.js"></script>
 </body>
 </html>
