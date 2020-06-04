@@ -99,11 +99,6 @@ main{
 
 /*end of card flipper*/
 
-.contact-me-body{
-    background: url("photos/pexels-photo-2501965.jpeg") fixed center center;
-    background-size: cover;
-    color: black;
-}
 
 .gallery {
     display: grid;
@@ -128,11 +123,12 @@ main{
 
 
 .circle {
-    background:url("photos/IMG_0458.png") center;
-    background-size: 100% 100%;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%
+    background:url("photos/IMG_1034.jpg");
+    background-position: 50% 100%;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 .about-me {
