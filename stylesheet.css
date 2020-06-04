@@ -86,7 +86,6 @@ main{
     background-color: #fff;
 }
 
-
 .project-1{
     background: url("photos/weatherapp.gif") center center no-repeat;
     background-size: 100% 100%;
@@ -100,27 +99,25 @@ main{
 /*end of card flipper*/
 
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-}
-
-
-
-.gallery__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .icons{
     font-size: 1em;
     color:black;
-
 }
+/*.scrolling {*/
+/*    background-color: #eaeaea;*/
+/*    display: block;*/
+/*    overflow-y: scroll;*/
+/*    scroll-behavior: smooth;*/
+/*    text-align: center;*/
+/*    width: 200px;*/
+/*}*/
 
+/*section {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100%;*/
+/*}*/
 
 .circle {
     background:url("photos/IMG_1034.jpg");
@@ -136,6 +133,12 @@ main{
 }
 .icon-link{
     color: #1969B2;
+}
+
+.about-me-blurb{
+    height: 100vh;
+    vertical-align: middle;
+
 }
 
 
