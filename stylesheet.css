@@ -86,15 +86,6 @@ main{
     background-color: #fff;
 }
 
-.project-1{
-    background: url("photos/weatherapp.gif") center center no-repeat;
-    background-size: 100% 100%;
-}
-
-.project-2{
-    background: url("photos/coffeeproject.gif") center center ;
-    background-size: 100% 100%;
-}
 
 /*end of card flipper*/
 
@@ -138,6 +129,12 @@ main{
 .homepage-about-me {
     height: 100vh;
 }
+
+.image-gallery{
+    display:grid;
+    grid-gap: 1em;
+}
+
 .bottom-picture {
     background:url("photos/FullSizeRender-2.jpeg");
     background-position: 50% 100%;
