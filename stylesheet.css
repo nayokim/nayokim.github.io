@@ -138,6 +138,14 @@ main{
 .homepage-about-me {
     height: 100vh;
 }
+.bottom-picture {
+    background:url("photos/FullSizeRender-2.jpeg");
+    background-position: 50% 100%;
+    background-size: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
 
 .asterisk{
     font-size: 0.8em;
