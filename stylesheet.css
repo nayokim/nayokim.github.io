@@ -130,9 +130,35 @@ main{
     height: 100vh;
 }
 
-.image-gallery{
-    display:grid;
-    grid-gap: 1em;
+
+.item1{
+    background: url("photos/logos/html-5.svg") no-repeat center center;
+    background-size:27%;
+}
+.item2{
+    background:url("photos/logos/css3.svg") no-repeat center center;
+    background-size: 47%;
+
+}
+.item3{
+    background: url("photos/logos/bootstrap-logo.png")no-repeat center center;
+    background-size: 40%;
+
+}
+
+.item4{
+    background: url("photos/logos/js-and-jquery.png")no-repeat center center;
+    background-size: 50%;
+}
+
+.item5{
+    background: url("photos/logos/java.png")no-repeat center center;
+    background-size: 50%;
+}
+
+.item6{
+    background: url("photos/logos/mysql.png")no-repeat center center;
+    background-size: 45%;
 }
 
 .bottom-picture {
