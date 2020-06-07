@@ -22,8 +22,7 @@
             <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <!--            <a class="nav-link" href="#"><i class="fa fa-search mr-1"></i></a>-->
-            <div class="navbar-collapse collapse justify-content-between align-items-center w-100"
+            <div class="homepage-nav navbar-collapse collapse justify-content-between align-items-center w-100"
                  id="collapsingNavbar2">
                 <ul class="navbar-nav mx-auto text-md-center text-left">
                     <li class="nav-item btn--corners">
@@ -53,7 +52,7 @@
 </header>
 
 <main>
-    <div class="container homepage-about-me justify-content-center">
+    <div class="container-fluid about-me homepage-about-me justify-content-center">
         <div class="row align-items-center h-100">
             <div class="col-1"></div>
             <div class="col-10 about-me align-items-center justify-contents-center" id="#1 blurb">
@@ -69,7 +68,35 @@
         </div>
     </div>
 
-    <div class="container homepage-about-me">
+    <div class="container-fluid passion homepage-about-me-2 mt-5">
+        <div class="row passion-1">
+            <div class="col-1"></div>
+            <div class="col-5">
+                <div class="passion-1 mt-5">
+                    <p>My passion is meticulously designing and developing simple and user-friendly web-applications.I
+                        enjoy learning and executing new concepts...
+                    </p>
+                </div>
+            </div>
+            <div class="col-5 project-example">
+                <img class="mt-5" id="movies" src="photos/movies.png" alt="movies-project">
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid passion homepage-about-me-2">
+        <div class="row passion-2">
+            <div class="col-4"></div>
+            <div class="col-2"></div>
+            <div class="col-6 mt-5">
+                <p>. . . even if it takes even if it takes a little time, effort, and love to make that concept work</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid skills homepage-about-me">
         <div class="row container-main-row align-items-center h-100">
             <div class="col-1"></div>
             <div class="first-row col-6 h-50 align-self-center">
@@ -91,13 +118,14 @@
                 <div class="row">
                     <h2><strong>What have I learned?</strong></h2>
                     <h6>
-                        <strong>Front End</strong>  : <br> HTML, CSS, JavaScript, Bootstrap, jQuery
+                        <strong>Front End</strong> : <br> HTML, CSS, JavaScript, Bootstrap, jQuery
                     </h6>
                     <h6>
                         <strong>Back End</strong>:<br> Java SE, Java EE, MySQL, Spring Boot Framework,<br>ThymeLeaf
                     </h6>
                     <h6>
-                        <strong>Industry Skills</strong>:<br> VCS with Git, Object Oriented Programming, Pair Programming
+                        <strong>Industry Skills</strong>:<br> VCS with Git, Object Oriented Programming, Pair
+                        Programming
                     </h6>
                     <h6>
                         <strong>Exposure to</strong>:<br> Node JS, Adobe Photoshop and Illustrator
@@ -108,37 +136,14 @@
         </div>
     </div>
 
-    <div class="container passion homepage-about-me-2 mt-5">
-        <div class="row passion-1">
-            <div class="col-1"></div>
-            <div class="col-6">
-                <div>
-                    <p>My passion is meticulously designing and developing simple and user-friendly web-applications.I
-                        enjoy learning and executing new concepts...
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container homepage-about-me-2">
-        <div class="row mt-5 passion-2">
-            <div class="col-1"></div>
-            <div class="col-4"></div>
-            <div class="col-6">
-                <p>. . . even if it takes even if it takes a little time, effort, and love to make that concept work</p>
-            </div>
-            <div class="col-1"></div>
-        </div>
-    </div>
 
 
-    <div class="container homepage-about-me justify-content-center">
+    <div class="contact-me container-fluid homepage-about-me justify-content-center">
         <div class="row align-items-center h-100">
             <div class="col-1"></div>
             <div class="col-10 about-me align-items-center justify-contents-center" id="#1-blurb">
                 <h1 class="about-me-text text-center"> Talk to me!</h1>
-                <div class="bottom-picture mt-5 pl-1 mx-auto d-block "></div>
+                <div class="bottom-picture pl-1 mx-auto d-block "></div>
                 <p class=" mt-5">
                     If you have a project you want to work on, discuss some code, or just want to ask "Hey, why do
                     you have all those bandages on your hand and knee in your introduction photo?"<br>
@@ -146,7 +151,7 @@
                 <div class="text-center">
                     <a href="mailto:nayoung.kimpak@gmail.com">
                         <button type="button" class="btn btn-outline-info">
-                                Contact Me!
+                            Contact Me!
                             </i>
                         </button>
                     </a>
@@ -158,17 +163,17 @@
 </main>
 
 
-<hr>
+
 <footer>
-    <p class="asterisk text-center">
-        *Rochester, NY. Yes, there is more to New York than NYC. Though admittedly, it was difficult to
-        understand that
-        through my high school years.
-    </p>
-    <div class="icons text-center">
-        <a class="icon-link" href="mailto:nayoung.kimpak@gmail.com"><i class="fas  fa-envelope fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/nayoungkimpak/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+    <div class="icons text-center mt-2">
+        <a class="icon-link" href="mailto:nayoung.kimpak@gmail.com"><i class="fas  fa-envelope fa-2x pr-2"></i></a>
+        <a href="https://www.linkedin.com/in/nayoungkimpak/"><i class="fab fa-linkedin-in fa-2x pr-2"></i></a>
         <a href="https://github.com/nayokim"><i class="fab fa-github-alt fa-2x"></i></a>
+        <p class="asterisk text-center">
+            *Rochester, NY. Yes, there is more to New York than NYC. Though admittedly, it was difficult to
+            understand that
+            through my high school years.
+        </p>
     </div>
 
 </footer>
