@@ -146,9 +146,9 @@ main{
     height: 50vh;
 }
 
-.passion{
-    background:#eeeeee;
-}
+/*.passion{*/
+/*    background:#eeeeee;*/
+/*}*/
 
 
 
@@ -188,9 +188,9 @@ main{
     width:100%
 }
 
-.contact-me{
-    background:#eeeeee;
-}
+/*.contact-me{*/
+/*    background:#eeeeee;*/
+/*}*/
 .bottom-picture {
     background:url("photos/FullSizeRender-2.jpeg");
     background-position: 50% 100%;
